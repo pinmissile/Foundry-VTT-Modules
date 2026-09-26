@@ -1,14 +1,14 @@
 # Foundry-VTT-Modules
-My curated list of Foundry VTT modules. These modules have been tested for Version 11.307
+My curated list of Foundry VTT modules. These modules have been tested for Version 14.368
 
 # Table of Contents
 - [Essentials](#essentials)
-- [Dependencies](#dependencies)
-- [Quality of Life / Utility](#qol)
-- [Maps](#maps)
+- [Scenes & Maps](#maps)
 - [UI](#ui)
+- [Animation](#animation)
+- [Audio Assets](#audioassets)
+- [Dependencies](#dependencies)
 - [System-Specific Modules](#system-specific-modules)
-    - [Pathfinder 1st Edition](#pf1e)
     - [Pathfinder 2nd Edition](#pf2e)
     - [Alien RPG](#alien-rpg)
     - [Blade Runner RPG](#blade-runner-rpg)
@@ -19,63 +19,22 @@ These modules should be part of any campaign.
 
 - [Cautious Gamemaster's Pack](https://github.com/cs96and/FoundryVTT-CGMP)
 A bunch of handy chat and visibility options.
-- [Combat Carousel](https://github.com/death-save/combat-carousel)
+- [Carousel Combat Tracker](https://github.com/theripper93/combat-tracker-dock)
 The best combat initiative tracker out there.
-- [Cursor Hider](https://gitlab.com/foundry-azzurite/cursor-hider)
-Allows you to hide your cursor. No longer will your players see you moving around hidden monsters.
-- [Drag Ruler](https://github.com/manuelVo/foundryvtt-drag-ruler)
-Shows a measurement when dragging an actor across the scene.
 - [Ownership Viewer](https://github.com/mclemente/fvtt-module-permission-viewer)
 Lets you easily visualize the permissions of your players of actors, journals, items and etc.
-- [Multi Token Status](https://github.com/cs96and/FoundryVTT-multistatus)
-Allows you to place statuses on multiple tokens at the same time. Works with PF1e, DnD5e, among others. Not essential for PF2e.
-- [Tokenizer](https://github.com/mrprimate/tokenizer/)
+- [Tokenizer 2](https://mrprimate.co.uk/)
 Create tokens in-game! It's great! Get it!
 - [Yendor's Scene Actors](https://gitlab.com/yendors-vtt/yendors-scene-actors/-/releases)
 Lets you put actor portraits on highlight in the middle of the scene.
 
-<a name="dependencies"></a>
-## Dependencies
-These modules are dependencies to other modules in this curated list. They're usually installed automatically with other mods, but are also here for posterity.
-
-- [FXMaster](https://github.com/ghost-fvtt/fxmaster)
-- [lib - Color Settings](https://github.com/ardittristan/VTTColorSettings)
-- [lib Themer](https://github.com/mouse0270/lib-themer)
-- [libWrapper](https://github.com/ruipin/fvtt-lib-wrapper)
-- [Settings Extender](https://gitlab.com/foundry-azzurite/settings-extender)
-- [socketlib](https://github.com/manuelVo/foundryvtt-socketlib)
-- [Token Action HUD Core](https://github.com/Larkinabout/fvtt-token-action-hud-core)
-
-<a name="qol"></a>
-## Quality of Life / Utility
-These are modules you might not need, but are nonetheless very helpful.
-
-- [Dice Stats](https://github.com/jacobwojoski/dice-stats)
-Tracks dice roll stats. Mostly just for fun. Could theoretically be used to catch cheaters (If you're scared of that)
-- [Force Client Settings](https://gitlab.com/kimitsu_desu/force-client-settings)
-Allows you to force a setting on to players, or set a setting by default.
-- [Module Management+](https://github.com/mouse0270/module-credits)
-Essential if you have as many modules as I have. Allows you to export/import module packs.
-- [Quick Insert - Search Widget](https://gitlab.com/fvtt-modules-lab/quick-insert)
-A context-aware search tool that can look through the compendium for pretty much anything.
-- [Scene Packer](https://github.com/League-of-Foundry-Developers/scene-packer)
-Helpful tools for importing and exporting scenes and adventures.
-- [Simple Calendar](https://github.com/vigoren/foundryvtt-simple-calendar)
-Despite its name, this is not a simple calendar. It's actually pretty advanced, and it's great.
-- [Smart Target](https://github.com/theripper93/Smart-Target)
-General improvements to targeting.
-- [Target Recall](https://github.com/napolitanod/Target-Recall)
-Remembers targeting of the last creature you controlled in initiative.
-- [Torch](https://github.com/League-of-Foundry-Developers/torch)
-Allows players to trigger the use of torches, and the lighting effects that follow.
-
 <a name="maps"></a>
-## Maps
+## Scenes & Maps
 Modules that are useful in building scenes and battle maps.
 
-- [Elevation Ruler](https://github.com/caewok/fvtt-elevation-ruler)
-- [Levels](https://github.com/theripper93/Levels)
-A slightly janky method of building scenes with multiple battlemaps on different levels.
+- [Better Roofs](https://github.com/theripper93/Better-Roofs) Improvements in Foundry's overhead tile functionality
+- [FXMaster](https://github.com/gambit07/fxmaster) Particle & Weather effects on scene
+- [Item Piles](https://github.com/fantasycalendar/FoundryVTT-ItemPiles) Lets you represent a loot pile as an actor on a scene.
 - [Monks Active Tile Triggers](https://github.com/ironmonk88/monks-active-tiles)
 Amazing potentials for automations and interactability with tiles in scenes.
 
@@ -83,65 +42,75 @@ Amazing potentials for automations and interactability with tiles in scenes.
 ## UI
 Modules that enhance the UI - Not including system-specific theming.
 
-- [Chat Enhancements](https://github.com/illandril/FoundryVTT-chat-enhancements)
+- [Chat Commander](https://gitlab.com/woodentavern/foundryvtt-chat-command-lib)
 A bunch of great UI enhancements for chat.
-- [Chat Media](https://github.com/p4535992/foundryvtt-chat-media)
-Allows users to drop in images and gifs in the chat.
-- [Chat Portrait](https://github.com/p4535992/foundryvtt-chat-portrait)
-Puts the relevant chat portrait next to the 
 - [Dice So Nice!](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
 Best virtual dice module on Foundry.
 - [Health Estimate](https://github.com/mclemente/healthEstimate)
 Displays a health estimate of a token to players.
-- [Monks Combat Details](https://github.com/ironmonk88/monks-combat-details)
+- [Quick Insert - Search Widget](https://gitlab.com/fvtt-modules-lab/quick-insert)
+A context-aware search tool that can look through the compendium for pretty much anything.
+- [Monk's Combat Details](https://github.com/ironmonk88/monks-combat-details)
 Turn notifications, combat automations, all good stuff. Great for PF2e.
-- [Monks Combat Marker](https://github.com/ironmonk88/monks-combat-marker)
-Puts a little marker under the current active actor in combat.
-- [Party Overview](https://github.com/mclemente/party-overview)
-Gives you a button that'll easily let you view the entire party's skills, wealth and other stuff.
-- [Pings](https://gitlab.com/foundry-azzurite/pings)
-Ping enhancements!
-- [PopOut!](https://github.com/League-of-Foundry-Developers/fvtt-module-popout)
-Lets you pop any window out into a separate browser window. Might be a little buggy sometimes.
-- [Shared Vision](https://github.com/CDeenen/SharedVision)
-Allows players to share vision between eachother.
-- [Token Animation Tools](https://github.com/ruipin/fvtt-token-animation-tools)
-Tools for further customizing token movement animations.
+- [Monk's TokenBar](https://github.com/ironmonk108/monks-tokenbar) Quick overview of your player's save values, and lets you prompt players for checks.
+- [Relationship Map](https://github.com/PrinceWitherdick/relationship-map-pwd) Adds a customizable relationship map UI element.
+- [Simple Calendar Reborn](https://github.com/Fireblight-Studios/foundryvtt-simple-calendar)
+Despite its name, this is not a simple calendar. It's actually pretty advanced, and it's great.
+- [Smart Target](https://github.com/theripper93/Smart-Target)
+General improvements to targeting.
+- [Status Icon Counters](https://gitlab.com/woodentavern/status-icon-counters) Adds support for numbers next to a status counter.
 - [Token HUD Wildcard](https://github.com/mhilbrunner/token-hud-wildcard)
 Allows you to set randomized tokens for actors, or allow for multiple interchangable tokens for them. Useful for PCs who can change shape!
 - [WeatherFX](https://github.com/LeafWulf/weatherfx)
 Really awesome weather special effects.
 
+<a name="animation"></a>
+## Animation
+Modules neccesary for animations
+
+- [Automated Animations](https://github.com/theripper93/autoanimations) Base module for animations.
+- [JB2A - Jules and Ben's Animated Assets](https://www.patreon.com/JB2A) HUGE asset packs for animations, useful for pf2e and dnd5e combat animations.
+- [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) Used for triggering and playing animations on a scene.
+
+<a name="audioassets"></a>
+## Audio Assets
+These are packs of generic audio assets that often come in handy.
+
+- [Monument Studios Sampler](https://www.monumentstudios.net/)
+- [SoundFx Library](https://github.com/MaterialFoundry/SoundFxLibrary)
+
+<a name="dependencies"></a>
+## Dependencies
+These modules are dependencies to other modules in this curated list. They're usually installed automatically with other mods, but are also here for posterity.
+
+- Foundry Summons
+- [Library: Item Select Dialogue](https://github.com/JDCalvert/lib-item-select-dialog)
+- [libWrapper](https://github.com/ruipin/fvtt-lib-wrapper)
+- [PF2e Brewrata](https://github.com/MrVauxs/pf2e-brewrata/)
+- [socketlib](https://github.com/manuelVo/foundryvtt-socketlib)
+- [TheRipper93's Module Hub](https://github.com/theripper93/theripper-premium-hub)
+
 <a name="system-specific-modules"></a>
 ## System-Specific Modules
 These modules are specific towards a specific TTRPG system. They will not work (or work poorly) with other systems.
-<a name="pf1e"></a>
-### [Pathfinder 1st Edition](https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1)
-
-- [Aura Share](https://github.com/FionaBrightgrass/Aura-Share)
-Automates the sharing of buffs between tokens. This makes handling auras easier.
-- [Pathfinder 1e Bestiary](https://gitlab.com/foundryvtt_pathfinder1e/pf1-bestiary)
-- [Pathfinder 1e Content](https://gitlab.com/foundryvtt_pathfinder1e/pf1-content)
-- [Pathfinder 1e Statblock Library](https://gitlab.com/foundryvtt_pathfinder1e/pf1-statblock-library)
-Compendiums of basically every Pathfinder 1e monster ever made. Must be used with PF1 Statblock Converter.
-- [Pathfinder UI Legacy v2](https://gitlab.com/sasmira/pathfinder-ui-legacy)
-- [PF1 Statblock Converter](https://gitlab.com/foundryvtt_pathfinder1e/pf1-statblock-converter)
-A tool used to import Pathfinder 1e Statblocks.
 
 <a name="pf2e"></a>
 ### [Pathfinder 2nd Edition](https://github.com/foundryvtt/pf2e)
+Most, if not all of these also allegedly work well for Starfinder 2e.
 
-- [Pathfinder 2 PDF Import](https://github.com/deidril/pf2-pdf-en-import)
-- [PF2e Companion Compendia](https://github.com/TikaelSol/PF2e-Animal-Companions)
-- [PF2e HUD](https://github.com/reonZ/pf2e-hud)
+- [PF2e Afflictioner](https://github.com/roi007leaf/pf2e-afflictioner) Automated affliction (poison/disease/curse) manager for Pathfinder 2e 
+- [PF2e Alchemist Remaster Duct Tape](https://github.com/thejoester/pf2e-alchemist-remaster-ducttape) Fixes for the Alchemist remaster
+- [PF2e Animation Macros](https://github.com/MrVauxs/pf2e-jb2a-macros) This module links the animation lib to the animation assets. I.e. the thing that tells the game to play a specific asset on a specific action.
+- [PF2e Companion Compendia](https://github.com/TikaelSol/PF2e-Animal-Companions) Adds Animal/Construct/Eidolon ancestry compendiums
+- [PF2e Dailies](https://github.com/reonZ/pf2e-dailies) Useful to manage staves and other daily abilities.
 - [PF2e Modifiers Matter](https://github.com/shemetz/pf2e-modifiers-matter)
 Displays in the UI when a modifier specifically tips a roll above or below a threshold, like success or critical success.
-- [PF2e Pathfinder UI v3](https://gitlab.com/sasmira/pathfinder-ui)
-- [pathmuncher](https://github.com/mrprimate/pathmuncher)
+- [PF2e Pathmuncher](https://github.com/mrprimate/pathmuncher)
 Import module from pathbuilder to Foundry
-- [PF2e Staves](https://github.com/jessev14/pf2e-staves)
-- [PF2e Workbench](https://github.com/xdy/xdy-pf2e-workbench/)
-- [Token Action HUD PF2e](https://github.com/Larkinabout/fvtt-token-action-hud-pf2e)
+- [PF2e Ranged Combat](https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat) Helper effects for ranged combat, managing ammunition types, reloading, and more.
+- [PF2e Summons Assistant](https://github.com/ChasarooniZ/pf2e-summons-assistant) Dedicated UI element for when you want to summon in something using a spell.
+- [PF2e Sustain Reminder](https://github.com/Lank891/Foundry-Pf2e-Sustain-Reminder) Reminds you that you have a spell active that needs sustaining.
+- [PF2e Workbench](https://github.com/xdy/xdy-pf2e-workbench/) A bunch of small automations that are really helpful for pf2e and starfinder
 
 <a name="alien-rpg"></a>
 ### [Alien RPG](https://github.com/pwatson100/alienrpg)
