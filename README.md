@@ -52,6 +52,7 @@ Displays a health estimate of a token to players.
 A context-aware search tool that can look through the compendium for pretty much anything.
 - [Monk's Combat Details](https://github.com/ironmonk88/monks-combat-details)
 Turn notifications, combat automations, all good stuff. Great for PF2e.
+- [Monk's Enhanced Journal](https://github.com/ironmonk108/monks-enhanced-journal) Improved UI for journals.
 - [Monk's TokenBar](https://github.com/ironmonk108/monks-tokenbar) Quick overview of your player's save values, and lets you prompt players for checks.
 - [Relationship Map](https://github.com/PrinceWitherdick/relationship-map-pwd) Adds a customizable relationship map UI element.
 - [Simple Calendar Reborn](https://github.com/Fireblight-Studios/foundryvtt-simple-calendar)
